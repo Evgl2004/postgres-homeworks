@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "homework-17"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Evgl <evgl2004@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "homework_17"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
